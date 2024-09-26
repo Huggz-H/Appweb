@@ -13,3 +13,6 @@ st.write (user_input)
 
 #image
 st.image ("https://cdn-europe1.lanmedia.fr/var/europe1/storage/images/europe1/culture/ceremonie-douverture-des-jo-david-guetta-setonne-de-ne-pas-avoir-ete-appele-4255568/61758829-1-fre-FR/Ceremonie-d-ouverture-des-JO-David-Guetta-s-etonne-de-ne-pas-avoir-ete-appele.jpg")
+
+#sidebar
+st.sidebar.title ("Hugo Da Silva")
