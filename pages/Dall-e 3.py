@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Dall-e 3")
 
 #Champ de saisie
-user_input = st.text_input("Open IA")
+user_input = st.text_input("Dall-e 3")
 st.write(user_input)
 
 #La clé OpenAI
@@ -24,3 +24,5 @@ image = client.images.generate(
     n=1,
 )
 image_url = image.data[0].url
+
+st.image(image_url)
