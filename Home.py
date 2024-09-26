@@ -29,6 +29,6 @@ age = st.select_slider("Quel est votre âge ?", range(0, 99))
 #Conditions en python 
 age > 18: 
   st.write ("Vous êtes majeur")
-else:
+else;
   st.write ("Vous êtes mineur")
 
