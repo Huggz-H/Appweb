@@ -21,7 +21,7 @@ st.sidebar.title ("Hugo Da Silva")
 st.sidebar.video("https://www.youtube.com/watch?v=mu5SSkn23lY")
 
 #Select bar 
-st.selectbox(Selectionnez votre niveau d'étude", ["Bar", "Bar+2", Bac+5"]
+st.selectbox(Selectionnez votre niveau d'étude", ["Bac", "Bac+2", Bac+5"])
 
 #Selexr slider
 age = st.select_slider("Quel est votre âge ?", range(0, 99)
